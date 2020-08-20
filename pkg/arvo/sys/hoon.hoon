@@ -9046,10 +9046,6 @@
       ==
   =+  sut=`type`%noun
   |%
-  ++  clip
-    |=  ref/type
-    ?>  ?|(!vet (nest(sut ref) & sut))
-    ref
   ::
   ::  +ar: texture engine
   ::
