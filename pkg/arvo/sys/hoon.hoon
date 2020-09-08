@@ -9459,6 +9459,36 @@
       hag  q.dix
     ==
   ::
+  ++  ergo
+    |=  {lop/palo rig/(list (pair wing hoon))}
+    ^-  (pair type nock)
+    =+  axe=(tend p.lop)
+    =|  hej/(list (pair axis nock))
+    ?:  ?=(%& -.q.lop)
+      =-  [p.- (hike axe q.-)]
+      |-  ^-  (pair type (list (pair axis nock)))
+      ?~  rig
+        [p.q.lop hej]
+      =+  zil=(mint %noun q.i.rig)
+      =+  dar=(tack(sut p.q.lop) p.i.rig p.zil)
+      %=  $
+        rig      t.rig
+        p.q.lop  q.dar
+        hej      [[p.dar q.zil] hej]
+      ==
+    =+  hag=~(tap in q.q.lop)
+    =-  [(fire p.-) [%9 p.q.lop (hike axe q.-)]]
+    |-  ^-  (pair (list (pair type foot)) (list (pair axis nock)))
+    ?~  rig
+      [hag hej]
+    =+  zil=(mint %noun q.i.rig)
+    =+  dix=(toss p.i.rig p.zil hag)
+    %=  $
+      rig  t.rig
+      hag  q.dix
+      hej  [[p.dix q.zil] hej]
+    ==
+  ::
   ++  endo
     |=  {lop/(pair palo palo) dox/type rig/(list (pair wing hoon))}
     ^-  (pair type type)
