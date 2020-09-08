@@ -9013,6 +9013,9 @@
       %duck   duck
       %dune   dune
       %dunk   dunk
+      %epla   epla
+      %emin   emin
+      %emul   emul
       %feel   feel
       %felt   felt
       %fine   fine
@@ -9694,6 +9697,24 @@
       =-  ?>(?|(!vet (nest(sut gol) & p.-)) -)
       (endo [p.p.lug p.q.lug] dox rig)
     --
+  ::
+  ++  epla
+    ~/  %epla
+    |=  {hyp/wing rig/(list (pair wing hoon))}
+    ^-  type
+    ~(play et hyp rig)
+  ::
+  ++  emin
+    ~/  %emin
+    |=  {gol/type hyp/wing rig/(list (pair wing hoon))}
+    ^-  (pair type nock)
+    (~(mint et hyp rig) gol)
+  ::
+  ++  emul
+    ~/  %emul
+    |=  {gol/type dox/type hyp/wing rig/(list (pair wing hoon))}
+    ^-  (pair type type)
+    (~(mull et hyp rig) gol dox)
   ::
   ++  felt
     ~/  %felt
